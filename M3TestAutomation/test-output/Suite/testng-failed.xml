@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="basicFramework.Testcase02">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Psw"/>
+          <include name="BrowserSetup"/>
+        </methods>
+      </class> <!-- basicFramework.Testcase02 -->
+      <class name="basicFramework.Testcase01">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="BrowserSetup"/>
+          <include name="Usn"/>
+        </methods>
+      </class> <!-- basicFramework.Testcase01 -->
+      <class name="basicFramework.Testcase03">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Title"/>
+          <include name="BrowserSetup"/>
+        </methods>
+      </class> <!-- basicFramework.Testcase03 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
